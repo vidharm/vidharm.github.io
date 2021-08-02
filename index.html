@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="VidHarm: A dataset for detection of harmful content in video">
+  <meta name="keywords" content="video, harmful content, dataset">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VidHarm: A dataset for detection of harmful content in video</title>
+ 
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">VidHarm: A dataset for detection of harmful content in video</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://www.johanedstedt.com">Johan Edstedt</a><sup>1</sup>,</span>
+            </span>
+            <span class="author-block">
+              Johan Karlsson</a><sup>2</sup>,</span>
+            </span>
+            <span class="author-block">
+              Francisca Benavente</a><sup>2</sup>,</span>
+            </span>
+            <span class="author-block">
+              Anette Novak</a><sup>2</sup>,</span>
+            </span>
+            <span class="author-block">
+              <a href="https://liu.se/en/employee/amabe60">Amanda Berg</a><sup>1</sup>,</span>
+            </span>
+            <span class="author-block">
+              <a href="https://liu.se/en/employee/micfe03">Michael Felsberg</a><sup>1</sup>,</span>
+            </span>
+             <br>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Linköping University &nbsp;&nbsp;</span>
+          </div>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+  <!--             <span class="link-block">
+                <a href="static/paper.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2106.08323"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- supp PDF Link. -->
+<!--               <span class="link-block">
+                <a href="static/supp.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Supp</span>
+                </a>
+              </span> -->
+              <!-- Video Link. 
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> 
+              -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/vidharm/vidharm"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-6d1718bc7b91">
+          <video poster="" id="6d1718bc7b91" autoplay controls muted loop height="100%">
+            <source src="static/videos/6d1718bc7b91.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-7c07587540f8">
+          <video poster="" id="7c07587540f8" autoplay controls muted loop height="100%">
+            <source src="static/videos/7c07587540f8.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-7e2bc2a6f2b3">
+          <video poster="" id="7e2bc2a6f2b3" autoplay controls muted loop height="100%">
+            <source src="static/videos/7e2bc2a6f2b3.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-16b8d1ce0fa1">
+          <video poster="" id="16b8d1ce0fa1" autoplay controls muted loop height="100%">
+            <source src="static/videos/16b8d1ce0fa1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-80dcdfbb9f9e">
+          <video poster="" id="80dcdfbb9f9e" autoplay controls muted loop height="100%">
+            <source src="static/videos/80dcdfbb9f9e.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-522ca5c192c1">
+          <video poster="" id="522ca5c192c1" autoplay controls muted loop height="100%">
+            <source src="static/videos/522ca5c192c1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-b3f6dce3cf1b">
+          <video poster="" id="b3f6dce3cf1b" autoplay controls muted loop height="100%">
+            <source src="static/videos/b3f6dce3cf1b.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-c373f1f5efe7">
+          <video poster="" id="c373f1f5efe7" autoplay controls muted loop height="100%">
+            <source src="static/videos/c373f1f5efe7.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-5c5a95c00562">
+          <video poster="" id="5c5a95c00562" autoplay controls muted loop height="100%">
+            <source src="static/videos/supp/5c5a95c00562.mp4"
+                    type="video/mp4">
+          </video>                            
+        </div>
+        <div class="item item-2031e20f78e7">
+          <video poster="" id="2031e20f78e7" autoplay controls muted loop height="100%">
+            <source src="static/videos/supp/2031e20f78e7.mp4"
+                    type="video/mp4">
+          </video>                            
+        </div>
+        <div class="item item-2329cb0fa609">
+          <video poster="" id="2329cb0fa609" autoplay controls muted loop height="100%">
+            <source src="static/videos/supp/2329cb0fa609.mp4"
+                    type="video/mp4">
+          </video>                            
+        </div>
+        <div class="item item-88712196ff42">
+          <video poster="" id="88712196ff42" autoplay controls muted loop height="100%">
+            <source src="static/videos/supp/88712196ff42.mp4"
+                    type="video/mp4">
+          </video>                            
+        </div>
+        <div class="item item-95970593d184">
+          <video poster="" id="95970593d184" autoplay controls muted loop height="100%">
+            <source src="static/videos/supp/95970593d184.mp4"
+                    type="video/mp4">
+          </video>                            
+        </div>
+        <div class="item item-e35c85dc98c6">
+          <video poster="" id="e35c85dc98c6" autoplay controls muted loop height="100%">
+            <source src="static/videos/supp/e35c85dc98c6.mp4"
+                    type="video/mp4">
+          </video>                            
+        </div>
+        <div class="item item-f27ed4acb80c">
+          <video poster="" id="f27ed4acb80c" autoplay controls muted loop height="100%">
+            <source src="static/videos/supp/f27ed4acb80c.mp4"
+                    type="video/mp4">
+          </video>                            
+        </div>
+      </div>
+    </div>
+  </div>
+   	<div align="center">
+		Some examples from the dataset
+	</div>
+</section>
+
+    
+
+
+<section class="section">
+  <div class="container">
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h2 class="title is-2">Dataset Description</h2>
+        <div class="content has-text-justified">
+          <p>
+            Work in progress          
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Abstract. -->
+
+</div> 
+
+<section class="section">
+  <div class="container">
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h2 class="title is-2">Download Instructions</h2>
+        <div class="content has-text-justified">
+          <p>
+            Work in progress
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Abstract. -->
+
+</div> 
+
+
+<section class="section" id="BibTeX">
+  <div class="container content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @article{edstedt2021harmful,
+        title={Is this Harmful? Learning to Predict Harmfulness Ratings from Video},
+        author={Edstedt, Johan and Karlsson, Johan and Benavente, Francisca and Novak, Anette and Berg, Amanda and Felsberg, Michael},
+        journal={arXiv preprint arXiv:2106.08323},
+        year={2021}
+      }
+</code></pre>
+  </div>
+</section>
+    
+
+<footer class="footer">
+  <div align="center" class="container">
+    <div class="columns is-centered">
+        <div class="content">
+            This website is inspired by <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
+        </div>
+      </div>
+    </div>
+</footer>
+
+</body>
+</html>
